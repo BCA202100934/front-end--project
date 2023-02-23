@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(36, 4, 95);
+  }
+  th, td {
+    border: 1px solid rgb(50, 10, 102);
+    padding: 8px;
+  }
+  div {
+      margin-bottom: 20px;
+  }
+  body{
+      font-family:'Times New Roman', Times, serif ;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+  }
+  .container div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .container div input{
+    height: 30px;
+    width: 180px;
+  }
+
+  .container  button{
+    height: 30px;
+    width: 190px;
+  }
